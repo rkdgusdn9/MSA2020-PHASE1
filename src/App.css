@@ -1,4 +1,9 @@
 .App {
-    max-width: 2000px;
-    margin: auto;
+  max-width: 2000px;
+  margin: auto;
+}
+
+.head-container {
+  display: flex;
+  background-color: lightcyan;
 }
