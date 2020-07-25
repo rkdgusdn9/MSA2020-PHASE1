@@ -4,7 +4,6 @@ import "./App.css";
 import SearchBar from "./Components/SearchBarComponent/SearchBar";
 import MovieList from "./Components/MediaGridComponent/MovieList";
 import { IUserInput } from "./Common/Interfaces";
-import { createMuiTheme, MuiThemeProvider } from "@material-ui/core";
 
 function App() {
   const [UserInput, setUserInput] = useState<IUserInput>({
