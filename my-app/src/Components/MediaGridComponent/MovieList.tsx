@@ -12,7 +12,7 @@ function MovieList(props: IMediaGridProps) {
 
   useEffect(() => {
     fetch(
-      "http://www.omdbapi.com/?apikey=79df37f0&page=1&s=" + props.SearchQuery
+      "https://www.omdbapi.com/?apikey=79df37f0&page=1&s=" + props.SearchQuery
     )
       .then((response) => response.json())
       .then((response) => {
